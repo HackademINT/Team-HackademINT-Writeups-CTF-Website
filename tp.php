@@ -91,17 +91,6 @@
 							</div>
 						</div>
 					</div>
-					<div class="content">
-						<div class="container">
-							<div class="row">
-								<div class="60u$ 90u$(medium) 5u(x-small)">
-									<h3>&nbsp;&nbsp;<u><b><a href="Downloads/Formation">Archives</a></b></u></h3>
-									<ul style="margin-left: 3em; margin-right:3em">
-                                                                        </ul>
-                                                                </div>
-                                                        </div>
-                                                </div>
-                                        </div>
 
 
 			<!-- Footer -->
