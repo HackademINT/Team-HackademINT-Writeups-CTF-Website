@@ -35,6 +35,14 @@
 								<div class="60u$ 90u$(medium) 5u(x-small)">
 									<h3>&nbsp;&nbsp;<u><b>2018-2019</b></u></h3>
 									<ul style="margin-left: 3em; margin-right:3em">
+										<li>
+										<a href="TP/HygieneNumerique/hygienenumerique.pdf">Hygiène Numérique</a><br />
+										<li>
+										<a onclick="activate('TPPasscracking')">Passcracking</a><br />
+                                                                                    <div class="id" id="TPPasscracking">
+                                                                                            <?php include('TP/Passcracking/passcracking.php') ?>
+                                                                                    </div>
+                                                                                </li>
                                                                         </ul>
                                                                 </div>
                                                         </div>
@@ -57,6 +65,26 @@
                                                                                     <div class="id" id="TPRSA">
                                                                                             <?php include('TP/RSA/rsa.php') ?>
                                                                                     </div>
+                                                                                </li>
+                                                                            </ul>
+                                                                      </div>
+							</div>
+						</div>
+					</div>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="60u$ 90u$(medium) 5u(x-small)">
+									<h3>&nbsp;&nbsp;<u><b>2016-2017</b></u></h3>
+									<ul style="margin-left: 3em; margin-right:3em">
+										<li>
+										<a href="TP/InjectionSQL/InjectionSQL.pdf">Injection SQL</a><br />
+                                                                                </li>
+										<li>
+										<a href="TP/post-exploitation.pdf">From webshell to root</a><br />
+                                                                                </li>
+										<li>
+										<a href="TP/stapler.pdf">From nothing to root</a><br />
                                                                                 </li>
                                                                             </ul>
                                                                       </div>
