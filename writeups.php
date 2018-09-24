@@ -110,10 +110,20 @@
                                                           </div>
                                                   </div>
                                               </div>
-<!-- Footer -->
-                                <?php include('footer.php'); ?>
-
+                                          <div class="content">
+                                                  <div class="container">
+                                                          <div class="row">
+                                                                  <div class="12u 12u$(medium)">
+                                                                          <a href="./WRITEUPS/StarHackademINT/">
+                                                                          <h3>&nbsp;&nbsp;<u><b>StarHackademINT</b></u></h3>
+                                                                          </a>
+                                                                  </div>
+                                                          </div>
+                                                  </div>
+                                          </div>
                 </div>
+                <!-- Footer -->
+                                <?php include('footer.php'); ?>
                 <!-- Scripts -->
                         <?php include ('script.php'); ?>
                         <script>

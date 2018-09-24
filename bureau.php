@@ -30,19 +30,23 @@
 								<ul style="list-style-type:none">
   <li>
     Aurélien Duboc (zTeeed) - Président<br />
+    <a href="https://github.com/zteeed/" target="\_blank"><img width="50" height="50" src="images/github.png" alt="Github Logo" /></a>
     <a href="https://www.root-me.org/zTeeed-115405" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
     <a href="https://twitter.com/zTeeed_"><img width="50" height="50" src="images/twitter.png"></span></a>
   </li>
   <li>
     Pierrick Gorisse (teagrain) - Vice-Président<br />
+    <a href="https://github.com/teagrain/" target="\_blank"><img width="50" height="50" src="images/github.png" alt="Github Logo" /></a>
+    <a href="https://twitter.com/Pierrick_go"><img width="50" height="50" src="images/twitter.png"></span></a>
   </li>
   <li>
     Valentin Penciolelli (penpen) - Vice-Président<br />
   </li>
   <li>Armelle Boussaïd (cilver) - Relations Entreprises<br /></li>
   <li>Etienne Wan (etiennewan) - Scripting &amp; Tooling<br />
+    <a href="https://github.com/etiennewan/" target="\_blank"><img width="50" height="50" src="images/github.png" alt="Github Logo" /></a>
     <a href="https://twitter.com/EtienneWan"><img width="50" height="50" src="images/twitter.png"></span></a>
-</li>
+  </li>
   <li>
     Ghita Filali (curlyhairedgirl) - Trésorière<br />
   </li>
@@ -68,19 +72,21 @@
 								
   <li>
     Stevan Coroller (occuria) - Président<br />
+    <!--
     <a href="https://www.root-me.org/occuria" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
+    -->
   </li>
-  <br />
   <li>
-    Romain Cherre (varens) - Vice-Président<br />
+    Romain Cherré (varens) - Vice-Président<br />
+    <!--
     <a href="https://www.root-me.org/varens" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
+    -->
   </li>
-  <br />
   <li>
     Nicolas Bonnet (insolentbacon) - Trésorier<br />
+    <a href="https://github.com/bonnetn/" target="\_blank"><img width="50" height="50" src="images/github.png" alt="Github Logo" /></a>
     <a href="https://www.root-me.org/MtBtDjM-DH7A-Kv" target="\_blank"><img width="50" height="50" src="https://www.root-me.org/local/cache-vignettes/L48xH48/rblackGrand48-0dba3.png" alt="Root-me Logo" /></a>
   </li>
-  <br />
 
 								</ul>
 								</div>
