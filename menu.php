@@ -8,7 +8,6 @@
                         <li><a href="/tp.php">Travaux Pratiques</a></li>
                         <li><a href="/writeups.php">Writeups</a></li>
                         <li><a href="/Downloads">Téléchargements</a></li>
-                        <li><a href="/admin">Connexion</a></li>
                 </ul>
         </nav>
 </header>
