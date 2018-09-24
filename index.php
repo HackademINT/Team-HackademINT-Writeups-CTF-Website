@@ -16,6 +16,7 @@
                                                         <span style="display: block;">Club de cybersécurité de <a href="https://www.minet.net">MiNET</a></span>
                                                         <span style="display: block;">Affiliation à <a href="https://www.telecom-sudparis.eu/">Telecom SudParis</a></span>
                                                         <span style="display: block;">Equipe compétitive de <a href="#zero">Capture The Flag</a></span>
+                                                        <span style="display: block;"><a href="https://starhackademint.minet.net">Plateforme d'entrainement</a></span>
 						</header>
 						<span class="image"><img src="images/pic01.jpg" alt="" /></span>
 					</div>
