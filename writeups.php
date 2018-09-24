@@ -114,8 +114,19 @@
                                                   <div class="container">
                                                           <div class="row">
                                                                   <div class="12u 12u$(medium)">
-                                                                          <a href="./WRITEUPS/StarHackademINT/">
-                                                                          <h3>&nbsp;&nbsp;<u><b>StarHackademINT</b></u></h3>
+                                                                          <a href="./WRITEUPS/StarHackademINT2018/">
+                                                                          <h3>&nbsp;&nbsp;<u><b>StarHackademINT2018</b></u></h3>
+                                                                          </a>
+                                                                  </div>
+                                                          </div>
+                                                  </div>
+                                          </div>
+                                          <div class="content">
+                                                  <div class="container">
+                                                          <div class="row">
+                                                                  <div class="12u 12u$(medium)">
+                                                                          <a href="./WRITEUPS/KerberINT2017/">
+                                                                          <h3>&nbsp;&nbsp;<u><b>KerberINT2017</b></u></h3>
                                                                           </a>
                                                                   </div>
                                                           </div>
