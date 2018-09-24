@@ -127,10 +127,17 @@ Attaquez les épreuves en considérant qu&rsquo;il s&rsquo;agit de vrais systèm
 						<div class="box alt">
 							<div class="row uniform">
 								<section class="2u 6u(medium) 12u(xsmall)">
+									<a href="https://discord.gg/jTdggpU"><span class="icon alt major fa-discord"></span></a>
+									<a href="https://discord.gg/jTdggpU"><h3><u>Discord</u></h3></a>
+									<p>Notre principal outil de communication et de partage.</p>
+								</section>
+                                                                <!--
+								<section class="2u 6u(medium) 12u(xsmall)">
 									<a href="https://gitlab.minet.net"><span class="icon alt major fa-gitlab"></span></a>
 									<a href="https://gitlab.minet.net"><h3><u>GitLab</u></h3></a>
 									<p>Tous les outils et les archives d'HackademINT des CTF passés</p>
 								</section>
+                                                                -->
 								<section class="2u 6u$(medium) 12u(xsmall)">
 									<a href="https://ctftime.org/team/30462" ><span class="icon alt major fa-flag"></span></a>
 									<a href="https://ctftime.org/team/30462"><h3><u>CTFTime</u></h3></a>
