@@ -29,8 +29,8 @@
 			
 			<!-- List  -->
                                   <h2 align="center"><u><b>Liste des TPs</b></u></h2>
-                                  <div class="wrapper style1">
-					<div class="content">
+				  <div class="content">
+                                        <div class="wrapper style1">
 						<div class="container">
 							<div class="row">
 									<h3>&nbsp;&nbsp;<u><b>2018-2019</b></u></h3>
@@ -48,8 +48,8 @@
                                                 </div>
                                         </div>
                                   </div>
-                                  <div class="wrapper style1">
-					<div class="content">
+				  <div class="content">
+                                        <div class="wrapper style1">
 						<div class="container">
 							<div class="row">
                                                                       <h3>&nbsp;&nbsp;<u><b>2017-2018</b></u></h3>
@@ -71,8 +71,8 @@
 						</div>
 					</div>
                                   </div>
-                                  <div class="wrapper style1">
-					<div class="content">
+				  <div class="content">
+                                        <div class="wrapper style1">
 						<div class="container">
 							<div class="row">
 									<h3>&nbsp;&nbsp;<u><b>2016-2017</b></u></h3>
