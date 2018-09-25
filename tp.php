@@ -28,11 +28,11 @@
 				</div>			
 			
 			<!-- List  -->
-                                        <h2 align="center"><u><b>Liste des TPs</b></u></h2>
+                                  <h2 align="center"><u><b>Liste des TPs</b></u></h2>
+                                  <div class="wrapper style1">
 					<div class="content">
 						<div class="container">
 							<div class="row">
-								<div class="60u$ 90u$(medium) 5u(x-small)">
 									<h3>&nbsp;&nbsp;<u><b>2018-2019</b></u></h3>
 									<ul style="margin-left: 3em; margin-right:3em">
 										<li>
@@ -44,15 +44,15 @@
                                                                                     </div>
                                                                                 </li>
                                                                         </ul>
-                                                                </div>
                                                         </div>
                                                 </div>
                                         </div>
+                                  </div>
+                                  <div class="wrapper style1">
 					<div class="content">
 						<div class="container">
 							<div class="row">
-								<div class="60u$ 90u$(medium) 5u(x-small)">
-									<h3>&nbsp;&nbsp;<u><b>2017-2018</b></u></h3>
+                                                                      <h3>&nbsp;&nbsp;<u><b>2017-2018</b></u></h3>
 									<ul style="margin-left: 3em; margin-right:3em">
 										<li>
 										<a onclick="activate('TPWebCrawling')">Web Crawling</a><br />
@@ -67,14 +67,14 @@
                                                                                     </div>
                                                                                 </li>
                                                                             </ul>
-                                                                      </div>
 							</div>
 						</div>
 					</div>
+                                  </div>
+                                  <div class="wrapper style1">
 					<div class="content">
 						<div class="container">
 							<div class="row">
-								<div class="60u$ 90u$(medium) 5u(x-small)">
 									<h3>&nbsp;&nbsp;<u><b>2016-2017</b></u></h3>
 									<ul style="margin-left: 3em; margin-right:3em">
 										<li>
@@ -87,10 +87,10 @@
 										<a href="TP/stapler.pdf">From nothing to root</a><br />
                                                                                 </li>
                                                                             </ul>
-                                                                      </div>
 							</div>
 						</div>
 					</div>
+                                  </div>
 
 
 			<!-- Footer -->
@@ -112,3 +112,11 @@
                         </script>
 	</body>
 </html>
+<style>
+li {
+  margin-right: 1em;
+}
+.wrapper {
+  padding: 1em 0 1em 0
+}
+</style>
