@@ -19,19 +19,17 @@ Exercice 3 : Décrypter un message à partir de la clé publique (n au dessus de
 <br />
 Outils/Liens utiles: 
 <br />
-- <a href="https://www.openssl.org/docs/man1.0.2/apps/openssl.html">https://www.openssl.org/docs/man1.0.2/apps/openssl.html</a>
+- <a href="https://www.openssl.org/docs/man1.0.2/apps/openssl.html">Documentation OpenSSL</a>
 <br />
-- <a href="https://www.youtube.com/watch?v=9K35mp1in0I">https://www.youtube.com/watch?v=9K35mp1in0I</a>
+- <a href="https://www.youtube.com/watch?v=9K35mp1in0I">Vidéo Youtube</a>
 <br />
-<!--
-- <a href="https://github.com/Ganapati/RsaCtfTool">https://github.com/Ganapati/RsaCtfTool</a>
+- <a href="https://github.com/Ganapati/RsaCtfTool">RsaCtfTool</a>
 <br />
--->
-- <a href="https://sourceforge.net/projects/msieve/files/msieve/">https://sourceforge.net/projects/msieve/files/msieve/</a>
+- <a href="https://sourceforge.net/projects/msieve/files/msieve/">Msieve</a>
 <br />
 (La version 1.52 pose moins de problème à l'installation - Exercice2)
 <br />
-- <a href="http://factordb.com/">http://factordb.com/</a>
+- <a href="http://factordb.com/">FactorDB</a>
 <br />
 <br />
 Pour aller plus loin : 
