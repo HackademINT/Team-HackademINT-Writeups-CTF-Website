@@ -20,6 +20,21 @@
 
 	div.id {
 		display: none;
+                margin-left: -5%;
+                margin-right: -3%;
+	}
+
+        @media screen and (max-width: 500px) { 
+          div.id {
+		display: none;
+                margin-left: -13%;
+                margin-right: -9%;
+          }
+        }
+
+	div.id > ul > li {
+                margin-left: 5%;
+                margin-right: 0%;
 	}
 
 	body {
