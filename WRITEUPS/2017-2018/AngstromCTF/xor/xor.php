@@ -18,5 +18,4 @@ plain=""
 for i in range(len(cipher)):
     plain+=chr(ord(cipher[i])^ord(key))
 print (plain)
-
 </code></pre>

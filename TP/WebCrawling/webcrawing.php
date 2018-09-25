@@ -8,11 +8,9 @@ Objectif:
 - Optionnel: Réaliser des injections SQL pour parvenir au même résultats.
 <br />
 <br />
-
 Exercice1: <a href="https://webstarhackademint89.minet.net">ici</a>
 <br />
 Exercice2: <a href="https://webstarhackademint88.minet.net">ici</a>
-
 <br />
 <br />
 Outils/Liens utiles:
