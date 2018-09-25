@@ -1684,7 +1684,7 @@
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
-		width: 57em;
+		/* width: 57em; */
                 display: block;
                 white-space: pre-wrap;       /* Since CSS 2.1 */
                 white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
@@ -1699,7 +1699,8 @@
 			line-height: 1.75em;
 			padding: 1em 1.5em;
 			overflow-x: auto;
-		        width: 47em; /* responsive */
+		        /* width: 47em; */
+                        /* responsive */
 		}
 
 	.align-left {

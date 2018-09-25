@@ -31,22 +31,18 @@
 
 			<!-- List  -->
                                         <h2 align="center"><u><b>Liste des Writeups (& <a href="https://ctftime.org/team/30462">CTFTime</a>)</b></u></h2>
-                                        <div id="main" class="wrapper style1">
-                                          <div class="content">
+                                          <div class="wrapper style1">
                                                   <div class="container">
-                                                          <div class="row">
-                                                                  <div class="12u 12u$(medium)">
+                                                          <section>
                                                                           <h3>&nbsp;&nbsp;<u><b>2018-2019</b></u></h3>
                                                                           <ul style="margin-left: 3em; margin-right:3em">
                                                                           </ul>	
-                                                                  </div>
-                                                          </div>
+                                                          </section>
                                                   </div>
                                           </div>
-                                          <div class="content">
+                                          <div class="wrapper style1">
                                                   <div class="container">
-                                                          <div class="row">
-                                                                  <div class="12u 12u$(medium)">
+                                                          <section>
                                                                           <h3>&nbsp;&nbsp;<u><b>2017-2018</b></u></h3>
                                                                           <ul style="margin-left: 3em; margin-right:3em; text-align: justify">
                                                                                   <?php
@@ -106,30 +102,25 @@
                                                                                   </div>
                                                                                   </li>
                                                                           </ul>	
-                                                                  </div>
-                                                          </div>
+                                                          </section>
                                                   </div>
-                                              </div>
-                                          <div class="content">
+                                          </div>
+                                          <div class="wrapper style1">
                                                   <div class="container">
-                                                          <div class="row">
-                                                                  <div class="12u 12u$(medium)">
+                                                          <section>
                                                                           <a href="./WRITEUPS/StarHackademINT2018/">
                                                                           <h3>&nbsp;&nbsp;<u><b>StarHackademINT2018</b></u></h3>
                                                                           </a>
-                                                                  </div>
-                                                          </div>
+                                                          </section>
                                                   </div>
                                           </div>
-                                          <div class="content">
+                                          <div class="wrapper style1">
                                                   <div class="container">
-                                                          <div class="row">
-                                                                  <div class="12u 12u$(medium)">
+                                                          <section>
                                                                           <a href="./WRITEUPS/KerberINT2017/">
                                                                           <h3>&nbsp;&nbsp;<u><b>KerberINT2017</b></u></h3>
                                                                           </a>
-                                                                  </div>
-                                                          </div>
+                                                          </section>
                                                   </div>
                                           </div>
                 </div>
@@ -150,3 +141,11 @@
 		</div>
        </body>
 </html>
+<style>
+li {
+  margin-right: 1em;
+}
+.wrapper {
+  padding: 1em 0 1em 0
+}
+</style>
