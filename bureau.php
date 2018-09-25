@@ -41,6 +41,7 @@
                 </li>
                 <li>
                   Valentin Penciolelli (penpen) - Vice-Président<br />
+                  <a href="https://github.com/penciole" target="\_blank"><img width="50" height="50" src="images/github.png" alt="Github Logo" /></a>
                 </li>
                 <li>Armelle Boussaïd (cilver) - Relations Entreprises<br /></li>
                 <li>Etienne Wan (etiennewan) - Scripting &amp; Tooling<br />
@@ -49,6 +50,7 @@
                 </li>
                 <li>
                   Ghita Filali (curlyhairedgirl) - Trésorière<br />
+                  <a href="https://gitlab.com/ghitafilali/" target="\_blank"><img width="50" height="50" src="images/gitlab.png" alt="Gitlab Logo" /></a>
                 </li>
               </ul>
             </div>
