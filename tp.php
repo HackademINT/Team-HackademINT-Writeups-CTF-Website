@@ -29,10 +29,9 @@
 			
 			<!-- List  -->
                                   <h2 align="center"><u><b>Liste des TPs</b></u></h2>
-				  <div class="content">
                                         <div class="wrapper style1">
 						<div class="container">
-							<div class="row">
+                                                    <section>
 									<h3>&nbsp;&nbsp;<u><b>2018-2019</b></u></h3>
 									<ul style="margin-left: 3em; margin-right:3em">
 										<li>
@@ -44,14 +43,12 @@
                                                                                     </div>
                                                                                 </li>
                                                                         </ul>
-                                                        </div>
+                                                    </section>
                                                 </div>
                                         </div>
-                                  </div>
-				  <div class="content">
                                         <div class="wrapper style1">
 						<div class="container">
-							<div class="row">
+                                                    <section>
                                                                       <h3>&nbsp;&nbsp;<u><b>2017-2018</b></u></h3>
 									<ul style="margin-left: 3em; margin-right:3em">
 										<li>
@@ -67,14 +64,12 @@
                                                                                     </div>
                                                                                 </li>
                                                                             </ul>
-							</div>
-						</div>
-					</div>
-                                  </div>
-				  <div class="content">
+                                                    </section>
+                                                </div>
+                                        </div>
                                         <div class="wrapper style1">
 						<div class="container">
-							<div class="row">
+                                                    <section>
 									<h3>&nbsp;&nbsp;<u><b>2016-2017</b></u></h3>
 									<ul style="margin-left: 3em; margin-right:3em">
 										<li>
@@ -87,10 +82,9 @@
 										<a href="TP/stapler.pdf">From nothing to root</a><br />
                                                                                 </li>
                                                                             </ul>
-							</div>
-						</div>
-					</div>
-                                  </div>
+                                                    </section>
+                                                </div>
+                                        </div>
 
 
 			<!-- Footer -->
