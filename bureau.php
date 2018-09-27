@@ -43,7 +43,9 @@
                   Valentin Penciolelli (penpen) - Vice-Président<br />
                   <a href="https://github.com/penciole" target="\_blank"><img width="50" height="50" src="images/github.png" alt="Github Logo" /></a>
                 </li>
-                <li>Armelle Boussaïd (cilver) - Relations Entreprises<br /></li>
+                <li>Armelle Boussaïd (cilver) - Relations Entreprises<br />
+                  <a href="https://github.com/Cilver-AB" target="\_blank"><img width="50" height="50" src="images/github.png" alt="Github Logo" /></a>
+                </li>
                 <li>Etienne Wan (etiennewan) - Scripting &amp; Tooling<br />
                   <a href="https://github.com/etiennewan/" target="\_blank"><img width="50" height="50" src="images/github.png" alt="Github Logo" /></a>
                   <a href="https://twitter.com/EtienneWan"><img width="50" height="50" src="images/twitter.png"></span></a>
