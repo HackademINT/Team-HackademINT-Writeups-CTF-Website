@@ -117,6 +117,16 @@
             <a href="./WRITEUPS/StarHackademINT2018/">
               <h3>&nbsp;&nbsp;<u><b>StarHackademINT2018</b></u></h3>
             </a>
+            <ul style="margin-left: 3em; margin-right:3em; text-align: justify">
+              <?php
+                ?>
+                <li>
+                  <a onclick="activate('ZipBruteforce')">ZipBruteforce</a>
+                  <div class="id" id="ZipBruteforce">
+		    <?php include('WRITEUPS/StarHackademINT2018/Zip-Bruteforce/zip-bruteforce.php') ?>
+                  </div>
+		</li>
+            </ul>	
           </section>
         </div>
       </div>
