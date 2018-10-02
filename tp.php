@@ -38,7 +38,7 @@
                 <!--
                 <a href="TP/HygieneNumerique/hygienenumerique.pdf">Hygiène Numérique</a><br />
                 -->
-                <a href="./TP/tp_ressources.pdf">Ressources HackademINT</a><br />
+                <a href="./TP/Ressources/tp_ressources.pdf">Ressources HackademINT</a><br />
                 <!--
                 <li>
                   <a onclick="activate('TPPasscracking')">Passcracking</a><br />
