@@ -38,13 +38,15 @@
                 <!--
                 <a href="TP/HygieneNumerique/hygienenumerique.pdf">Hygiène Numérique</a><br />
                 -->
-                <a>Hygiène Numérique</a><br />
+                <a href="./TP/tp_ressources.pdf">Ressources HackademINT</a><br />
+                <!--
                 <li>
                   <a onclick="activate('TPPasscracking')">Passcracking</a><br />
                   <div class="id" id="TPPasscracking">
                     <?php include('TP/Passcracking/passcracking.php') ?>
                   </div>
                 </li>
+                -->
             </ul>
           </section>
         </div>
