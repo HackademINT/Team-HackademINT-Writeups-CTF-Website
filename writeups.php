@@ -35,7 +35,13 @@
         <div class="container">
           <section>
             <h3>&nbsp;&nbsp;<u><b>2018-2019</b></u></h3>
-            <ul style="margin-left: 3em; margin-right:3em">
+            <ul style="margin-left: 3em; margin-right:3em; text-align: justify">
+                <li>
+                  <a onclick="activate('IceCTF')">IceCTF</a>
+                  <div class="id" id="IceCTF">
+                    <?php include('WRITEUPS/2017-2018/IceCTF/icectf.php') ?>
+                  </div>
+                </li>
             </ul>	
           </section>
         </div>
