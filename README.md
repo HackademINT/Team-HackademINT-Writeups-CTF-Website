@@ -1,4 +1,4 @@
-# HackademINT-Website
+# Cybersecurity - HackademINT
 
 https://hackademint.minet.net
 
