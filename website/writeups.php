@@ -34,12 +34,14 @@
       <div class="wrapper style1">
         <div class="container">
           <section>
-            <h3>&nbsp;&nbsp;<u><b>2018-2019</b></u></h3>
+            <a href="<?php echo $_SERVER["DOCUMENT_ROOT"] ?>/writeups/2018-2019/">
+              <h3>&nbsp;&nbsp;<u><b>2018-2019</b></u></h3>
+            </a>
             <ul style="margin-left: 3em; margin-right:3em; text-align: justify">
                 <li>
                   <a onclick="activate('IceCTF')">IceCTF</a>
                   <div class="id" id="IceCTF">
-                    <?php include('WRITEUPS/2017-2018/IceCTF/icectf.php') ?>
+                    <?php include('/writeups/2017-2018/IceCTF/icectf.php') ?>
                   </div>
                 </li>
             </ul>	
@@ -49,62 +51,64 @@
       <div class="wrapper style1">
         <div class="container">
           <section>
-            <h3>&nbsp;&nbsp;<u><b>2017-2018</b></u></h3>
+            <a href="<?php echo $_SERVER["DOCUMENT_ROOT"] ?>/writeups/2017-2018">
+              <h3>&nbsp;&nbsp;<u><b>2017-2018</b></u></h3>
+            </a>
             <ul style="margin-left: 3em; margin-right:3em; text-align: justify">
               <?php
                 ?>
                 <li>
                   <a onclick="activate('TUCTF')">TUCTF</a>
                   <div class="id" id="TUCTF">
-                    <?php include('WRITEUPS/2017-2018/TUCTF/tuctf.php') ?>
+                    <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/2017-2018/TUCTF/tuctf.php') ?>
                   </div>
                 </li>
                 <li>
                   <a onclick="activate('JuniorCTF')">JuniorCTF</a>
                   <div class="id" id="JuniorCTF">
-                    <?php include('WRITEUPS/2017-2018/JuniorCTF/juniorctf.php') ?>
+                    <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/2017-2018/JuniorCTF/juniorctf.php') ?>
                   </div>
                 </li>
                 <li>
                   <a onclick="activate('EvlzCTF')">EvlzCTF</a>
                   <div class="id" id="EvlzCTF">
-                    <?php include('WRITEUPS/2017-2018/EvlzCTF/evlzctf.php') ?>
+                    <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/2017-2018/EvlzCTF/evlzctf.php') ?>
                   </div>
                 </li>
                 <li>
                   <a onclick="activate('EasyCTF')">EasyCTF</a>
                   <div class="id" id="EasyCTF">
-                    <?php include('WRITEUPS/2017-2018/EasyCTF/easyctf.php') ?>
+                    <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/2017-2018/EasyCTF/easyctf.php') ?>
                   </div>
                 </li>
                 <li>
                   <a onclick="activate('TamuCTF')">TamuCTF</a>
                   <div class="id" id="TamuCTF">
-                    <?php include('WRITEUPS/2017-2018/TamuCTF/tamuctf.php') ?>
+                    <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/2017-2018/TamuCTF/tamuctf.php') ?>
                   </div>
                 </li>
                 <li>
                   <a onclick="activate('AngstromCTF')">AngstromCTF</a>
                   <div class="id" id="AngstromCTF">
-                    <?php include('WRITEUPS/2017-2018/AngstromCTF/angstromctf.php') ?>
+                    <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/2017-2018/AngstromCTF/angstromctf.php') ?>
                   </div>
                 </li>
                 <li>
                   <a onclick="activate('BreizhCTF')">BreizhCTF</a>
                   <div class="id" id="BreizhCTF">
-                    <?php include('WRITEUPS/2017-2018/BreizhCTF/breizhctf.php') ?>
+                    <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/2017-2018/BreizhCTF/breizhctf.php') ?>
                   </div>
                 </li>
                 <li>
                   <a onclick="activate('ESIEACTF')">ESIEACTF</a>
                   <div class="id" id="ESIEACTF">
-                    <?php include('WRITEUPS/2017-2018/ESIEACTF/esieactf.php') ?>
+                    <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/2017-2018/ESIEACTF/esieactf.php') ?>
                   </div>
                 </li>
                 <li>
                   <a onclick="activate('RCTF')">RCTF</a>
                   <div class="id" id="RCTF">
-                    <?php include('WRITEUPS/2017-2018/RCTF/rctf.php') ?>
+                    <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/2017-2018/RCTF/rctf.php') ?>
                   </div>
                 </li>
             </ul>	
@@ -114,7 +118,7 @@
       <div class="wrapper style1">
         <div class="container">
           <section>
-            <a href="./WRITEUPS/StarHackademINT2018/">
+            <a href="<?php echo $_SERVER["DOCUMENT_ROOT"] ?>/writeups/StarHackademINT2018/">
               <h3>&nbsp;&nbsp;<u><b>StarHackademINT2018</b></u></h3>
             </a>
             <ul style="margin-left: 3em; margin-right:3em; text-align: justify">
@@ -123,7 +127,7 @@
                 <li>
                   <a onclick="activate('ZipBruteforce')">ZipBruteforce</a>
                   <div class="id" id="ZipBruteforce">
-		    <?php include('WRITEUPS/StarHackademINT2018/Zip-Bruteforce/zip-bruteforce.php') ?>
+		    <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/Zip-Bruteforce/zip-bruteforce.php') ?>
                   </div>
 		</li>
             </ul>	
@@ -133,18 +137,18 @@
       <div class="wrapper style1">
         <div class="container">
           <section>
-            <a href="./WRITEUPS/KerberINT2017/">
+            <a href="<?php echo $_SERVER["DOCUMENT_ROOT"] ?>/writeups/KerberINT2017/Writeups KERBERINT 2017.pdf">
               <h3>&nbsp;&nbsp;<u><b>KerberINT2017</b></u></h3>
             </a>
           </section>
         </div>
       </div>
     </div>
-    <!-- Footer -->
-    <?php include('footer.php'); ?>
-    <!-- Scripts -->
-    <?php include ('script.php'); ?>
-    <script>
+<!-- Footer -->
+<?php include('footer.php'); ?>
+<!-- Scripts -->
+<?php include ('script.php'); ?>
+<script>
 function activate(elem) {
   var x = document.getElementById(elem);
   if (x.style.display === "none" || x.style.display === "") {
@@ -153,7 +157,7 @@ function activate(elem) {
     x.style.display = "none";
   }
 }
-    </script>
+</script>
     </div>
   </body>
 </html>
