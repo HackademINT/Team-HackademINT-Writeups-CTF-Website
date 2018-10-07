@@ -1,4 +1,4 @@
----
+﻿---
 title: "TP Hygiène Numérique HackademINT"
 subtitle: "Protégez vos données personnelles"
 author: "zTeeed"
@@ -13,11 +13,11 @@ titlepage-rule-height: 1
 colorlinks: true
 ---
 
-# Gestionnaire de Mot de Passe
+# Gestionnaire de mots de Passe
 
 ## Keepass2
 
-> KeePass est un gestionnaire de mots de passe qui sauvegarde les mots de passe dans un fichier
+> KeePass est un gestionnaire de mots de passe qui sauvegarde ces derniers dans un fichier
 > chiffré appelé « base de données ». Cette base est accessible avec le mot de passe principal.
 
 ![](images/keepass1.png)
@@ -34,16 +34,16 @@ colorlinks: true
 
 ## cryptsetup
 
-Munissez vous de votre clef USB. Nous allons effacer toutes les données dessus
-et rendre la clé chiffrée. Vous pouvez ainsi conserver vos données le splus
+Munissez-vous de votre clef USB. Nous allons effacer toutes les données dessus
+et chiffrer la clé. Vous pouvez ainsi conserver vos données les plus
 précieuses sur vous tout le temps sans craindre que l'on vous vole le contenu si
-vous perdez cette clé. Vous pouvez de la même manière chiffrer un disque dur: \
+vous perdez cette clé USB. Vous pouvez chiffrer un disque dur de la même manière: \
 
 Documentation complète en ligne:\
 [https://help.ubuntu.com/community/EncryptedFilesystemsOnRemovableStorage](https://help.ubuntu.com/community/EncryptedFilesystemsOnRemovableStorage)
 
 Exemple avec une nouvelle clé USB (/dev/sdc): \
-**Attention: vérifiez bien que le device correspondant à votre clef USB !!**
+**Attention: vérifiez bien que le device correspond à votre clef USB !!**
 
 ```bash
 [zteeed@spider HackademINT]$ lsblk
@@ -53,7 +53,7 @@ sdc                 8:32   1  14,9G  0 disk
   sdc1              8:33   1  14,9G  0 part
 ```
 
-Setup (après avoir créer une partition avec fdisk ou gparted):
+Setup (après avoir créé une partition avec fdisk ou gparted):
 ```bash
 sudo apt install cryptsetup
 sudo cryptsetup --verify-passphrase luksFormat /dev/sdc1 -c aes -s 256 -h sha256
@@ -73,8 +73,8 @@ mount /dev/mapper/key_dcrypt /mnt
 
 ## encfs
 
-Dans le cas ou votre disque ne serait pas chiffré mais vous voudriez quand même
-chiffrer les données dans un dossier, voici la marche à suivre:
+Voici la marche à suivre dans le cas où votre disque ne serait pas chiffré mais que vous voudriez quand même
+chiffrer les données dans un dossier:
 
 Installation:
 ```bash
@@ -85,7 +85,7 @@ encfs ~/encrypted ~/decrypted
 Enter "p"
 ```
 
-Déchiffrez le dossier et insérez y vos données
+Déchiffrez le dossier et insérez-y vos données
 ```bash
 encfs ~/encrypted ~/decrypted
 cd ~/decrypted
@@ -99,7 +99,7 @@ fusermount -u ~/decrypted
 
 \pagebreak
 
-# Chiffrement de mail
+# Chiffrement de mails
 
 ## gpg
 
@@ -116,4 +116,5 @@ Je vous renvoie vers la documentation en ligne: \
 ![](images/thunderbird.png)
 ![](images/mail.png)
 ![](images/mail2.png)
+
 
