@@ -35,10 +35,11 @@
             <h3>&nbsp;&nbsp;<u><b>2018-2019</b></u></h3>
             <ul style="margin-left: 3em; margin-right:3em">
               <li>
-                <!--
-                <a href="TP/HygieneNumerique/hygienenumerique.pdf">Hygiène Numérique</a><br />
-                -->
+                <a href="./TP/Hygiene_Numerique/tp_hygiene_numerique.pdf">Hygiène Numérique</a><br />
+              </li>
+              <li>
                 <a href="./TP/Ressources/tp_ressources.pdf">Ressources HackademINT</a><br />
+              </li>
                 <!--
                 <li>
                   <a onclick="activate('TPPasscracking')">Passcracking</a><br />
