@@ -25,10 +25,9 @@ augmenter notre visibilité.\
 
 ## La Mailing List
 
-Les mails c'est uniquement pour faire passer les informations les plus
-importantes. La quantité de mails doit rester au maximum restreinte. On ne doit pas
-avoir plus 3/4 mails dans la semaine. Les périodes de rentrée font exception
-évidemment.
+Les mails servent uniquement à faire passer les informations les plus
+importantes. La quantité de mails doit rester restreinte au maximum. On ne doit pas
+avoir plus 3/4 mails dans la semaine. Les périodes de rentrée font évidemment exception.
 
 ## CTFTime
 
@@ -46,8 +45,8 @@ notre site web.
 
 ## Discord
 
-Discord c'est notre outil de communication en interne. On y établit toutes les
-discussions en ce qui concerne notre tryhard sur les challenges de CTFs ou ceux
+Discord est notre outil de communication en interne, on y établit toutes les
+discussions en ce qui concerne notre travail sur les challenges de CTFs ou ceux
 des autres plateformes dédiées à l'apprentissage de la sécurité informatique.
 C'est notre meilleur outil pour s'entraider et c'est comme ça que l'on
 Progresse. Il ne faut donc pas hésiter à être actif afin d'augmenter votre
@@ -75,7 +74,7 @@ interaction avec les autres membres. Cela vous profitera à tous.
 > virtuelles.
 \
 
-- C'est quoi la différence entre un container et une machine virtuelle ?
+- Quelle est la différence entre un container et une machine virtuelle ?
 - Quelles sont leurs caractéristiques ? \
 
 > À la différence de la machine virtuelle, le container partage le noyau de
@@ -106,7 +105,7 @@ interaction avec les autres membres. Cela vous profitera à tous.
 
 Les différents CTs/VMs sont sur un serveur au sein de l'infra MiNET. À
 l'origine ils ne disposent pas d'**interface réseau publique** (à MiNET ça concerne
-les IPs commençant par 157.159) seulement des **interfaces réseau privées** (par
+les IPs commençant par 157.159), seulement des **interfaces réseau privées** (par
 convention les IPs commencent par 192.168) donc ces machines sont
 seulement accessibles derrière le VPN MiNET. En vous connectant via **OpenVPN** au
 VPN MiNET, vous êtes routés vers le sous-réseau ayant accès à ces machines.
@@ -124,7 +123,8 @@ interface graphique pour la gestion "clic clic".\
 \pagebreak
 
 Pour illustrer la suite de cette présentation, on prendra pour exemple le
-container sur lequel est hébergé le site web hackademint.minet.net dont la configuration est donnée plus loin. Une fois l'interface publique ajoutée, il faut modifier le
+container sur lequel est hébergé le site web hackademint.minet.net dont
+la configuration est présenté plus bas. Une fois l'interface publique ajoutée, il faut modifier le
 fichier de conf suivant:
 
 ```bash
@@ -179,7 +179,7 @@ eth0
 - **IP: 157.159.40.???**
 
 
-> Site web webstarhackademint.minet.net / Une partie des challenges web et base
+> Site web webstarhackademint.minet.net / Une partie des challenges web et bases
 > de données mysql
 - webstarhackademint
 - **IP: 157.159.40.163**
@@ -215,7 +215,7 @@ ssh root@157.159.40.171
 - Une clé RSA ?
 
 > Quand vous travaillez avec des clés asymétriques, par principe, vous avez deux
-> clés (on parle de paire de clés) : une clé publique que vous pouvez diffuser
+> clés (on parle de paire de clés) : une clé publique, que vous pouvez diffuser
 > librement, voire mettre à disposition sur un serveur de clés ; et une clé
 > privée qui constitue véritablement votre « identité » et ne doit jamais être
 > diffusée : elle reste simplement présente dans votre dépôt de clés
@@ -276,7 +276,7 @@ sudo apt install vim
 
 ## C'est quoi ?
 
-vim, c'est un éditeur de texte mais avec quelques plugins ça devient un vrai
+Vim est un éditeur de texte mais avec quelques plugins ça devient un vrai
 **IDE**. La gestion des plugins de la configuration sont dans le fichier
 `~/.vimrc`, vous pouvez piquer le mien sur mon **FTP**:
 ```bash
@@ -285,7 +285,7 @@ mv vimrc ~/.vimrc`
 ```
 
 Pour apprendre tous les bindings relatifs à vim, tapez `vimtutor` sur votre
-terminal ou cherchez des tutos en ligne, vous allez rapidement devenir très
+terminal ou cherchez des tutos en ligne : vous allez rapidement devenir très
 efficaces pour coder / éditer des fichiers rapidement.
 
 ## Comment installer des plugins ?
@@ -302,28 +302,35 @@ vim ~/.vimrc
 
 # Mettre à jour le site web: faire du php
 
-Le site fonctionne sans **framework**. L'idée est que vous puissiez comprendre
+Le site fonctionne sans **framework**, l'idée est que vous puissiez comprendre
 facilement et rapidement comment ça fonctionne sans que vous ayez à apprendre
 tout le fonctionnement d'une structure web complexe.
 
-Exemple pour ajouter un writeup de challenges:
+Toutes les modifications sont locales. Un cron job ajoute vos modifications sur
+le site tous les jours à 4h00. Voir la partie **git** pour envoyer vos modifications
+
+Exemple pour cloner le site en local:
 ```
-scp -P 2222 -i id_rsa writeups zteeed@157.159.40.177:~
-ssh -i id_rsa zteeed@157.159.40.171
-cd /var/www/html
+sudo apt install apache2
+cd /var/www
+rm -r html/
+git clone https://github.com/zteeed/Cybersecurity-HackademINT.git
+mv Cybersecurity-HackademINT html
+firefox localhost
 ```
 
+On passe à la modification du code php
 vim /var/www/html/writeups.php
 ```php
 <li>
   <a onclick="activate('AngstromCTF')">AngstromCTF</a>
   <div class="id" id="AngstromCTF">
-    <?php include('WRITEUPS/2017-2018/AngstromCTF/angstromctf.php') ?>
+    <?php include('/writeups/2017-2018/AngstromCTF/angstromctf.php') ?>
   </div>
 </li>
 ```
 
-/var/www/html/WRITEUPS/2017-2018/AngstromCTF/angstromctf.php
+/var/www/html/writeups/2017-2018/AngstromCTF/angstromctf.php
 ```php
 <li><a onclick="activate('AngstromCTFintrotorsa')">introtorsa</a></li>
 <div class="id" id="AngstromCTFintrotorsa">
@@ -331,7 +338,7 @@ vim /var/www/html/writeups.php
 </div>
 ```
 
-/var/www/html/WRITEUPS/2017-2018/AngstromCTF/introtorsa
+/var/www/html/writeups/2017-2018/AngstromCTF/introtorsa
 ```php
 // contenu du writeup
 ```
@@ -342,15 +349,17 @@ vim /var/www/html/writeups.php
 
 #### C'est quoi ça encore ?
 
-git c'est un outil de versioning de code. Il faut vous créer un compte sur
+git est un outil de versionning de code. Il faut vous créer un compte sur
 https://github.com et que vous me donniez votre pseudo pour que je puisse vous
 ajouter comme collaborateur sur le **répo** HackademINT.
 
 ## Commandes utiles (+Google)
 
-Vérifiez que vous maniez git avec votre user
+Vérifier que vous maniez git avec votre user
 ```bash
 git config --list
+git config --global user.name "mon_user"
+git config --global user.email "mon_user@mail.fr"
 git status
 git add fichier.php
 git commit -m "super update"
