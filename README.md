@@ -2,4 +2,4 @@
 
 https://hackademint.minet.net
 
-![alt text](https://hackademint.minet.net/images/pic01.jpg)
+![alt text](https://hackademint.minet.net/website/images/pic01.jpg)
