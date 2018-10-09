@@ -8,7 +8,7 @@ if (isset(getallheaders()["X-Hub-Signature"])) {
 	if (hash_equals($signature, $hmac)) {
 		if (isset(getallheaders()["X-GitHub-Event"])) {
 			if (getallheaders()["X-GitHub-Event"] == "push") {
-				shell_exec("git pull");
+				shell_exec("sudo pull.sh");
 			} else {
 				http_response_code(403);
 				die("Invalid GitHub event header");
