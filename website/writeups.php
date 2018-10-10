@@ -130,10 +130,6 @@
 		    <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/Zip-Bruteforce/zip-bruteforce.php') ?>
                   </div>
 		</li>
-            </ul>	
-            <ul style="margin-left: 3em; margin-right:3em; text-align: justify">
-              <?php
-                ?>
                 <li>
                   <a onclick="activate('Affine')">Affine</a>
                   <div class="id" id="Affine">
