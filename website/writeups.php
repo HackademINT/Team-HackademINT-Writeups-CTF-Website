@@ -152,6 +152,16 @@
                   </div>
 		</li>
             </ul>	
+            <ul style="margin-left: 3em; margin-right:3em; text-align: justify">
+              <?php
+                ?>
+                <li>
+                  <a onclick="activate('ZipBruteforce')">ZipBruteforce</a>
+                  <div class="id" id="ZipBruteforce">
+		    <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/Zip-Bruteforce/zip-bruteforce.php') ?>
+                  </div>
+		</li>
+            </ul>	
           </section>
         </div>
       </div>
