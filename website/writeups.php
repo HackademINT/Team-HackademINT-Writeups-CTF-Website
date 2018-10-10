@@ -135,9 +135,9 @@
               <?php
                 ?>
                 <li>
-                  <a onclick="activate('ZipBruteforce')">ZipBruteforce</a>
-                  <div class="id" id="ZipBruteforce">
-		    <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/Zip-Bruteforce/zip-bruteforce.php') ?>
+                  <a onclick="activate('Affine')">Affine</a>
+                  <div class="id" id="Affine">
+		    <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/Affine/affine.php') ?>
                   </div>
 		</li>
             </ul>	
