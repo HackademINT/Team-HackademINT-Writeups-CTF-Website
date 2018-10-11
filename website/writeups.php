@@ -129,13 +129,19 @@
                   <div class="id" id="ZipBruteforce">
         <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/Zip-Bruteforce/zip-bruteforce.php') ?>
                   </div>
-    </li>
+    		</li>
                 <li>
                   <a onclick="activate('Affine')">Affine</a>
                   <div class="id" id="Affine">
         <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/Affine/affine.php') ?>
                   </div>
-    </li>
+		</li>
+		<li>
+                  <a onclick="activate('Rail Fence')">Rail Fence</a>
+                  <div class="id" id="Rail Fence">
+        <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/RailFence/railfence.php') ?>
+                  </div>
+                </li>
             </ul>
           </section>
         </div>
