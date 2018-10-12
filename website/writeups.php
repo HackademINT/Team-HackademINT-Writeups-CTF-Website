@@ -17,11 +17,11 @@
                   <h2>Writeups</h2>
                 </header>
               </div>
-              <div class="2u">&nbsp;</div>        
+              <div class="2u">&nbsp;</div>
               <div class="8u 12u$(medium)">
                 <a href="https://ctftime.org/team/30462"><span class="image fit"><img src="images/ctfd.png" alt="" /></span></a>
               </div>
-              <div class="2u">&nbsp;</div>        
+              <div class="2u">&nbsp;</div>
             </div>
           </div>
         </div>
@@ -140,6 +140,24 @@
                   <a onclick="activate('Rail Fence')">Rail Fence</a>
                   <div class="id" id="Rail Fence">
         <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/RailFence/railfence.php') ?>
+                  </div>
+                </li>
+                <li>
+                  <a onclick="activate('Localisation2')">Localisation 2</a>
+                  <div class="id" id="Localisation2">
+        <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/Localisation2/localisation2.php') ?>
+                  </div>
+                </li>
+                <li>
+                  <a onclick="activate('PHPFilters')">PHP Filters</a>
+                  <div class="id" id="PHPFilters">
+        <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/PHPFilters/php_filters.php') ?>
+                  </div>
+                </li>
+                <li>
+                  <a onclick="activate('XorDifficile')">Xor Difficile</a>
+                  <div class="id" id="XorDifficile">
+        <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/XorDifficile/xor_difficile.php') ?>
                   </div>
                 </li>
             </ul>
