@@ -136,6 +136,12 @@
         <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/Affine/affine.php') ?>
                   </div>
 		</li>
+                <li>
+                  <a onclick="activate('Bash')">Bash</a>
+                  <div class="id" id="Bash">
+        <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/Bash/Bash1.php') ?>
+                  </div>
+		</li>
 		<li>
                   <a onclick="activate('Rail Fence')">Rail Fence</a>
                   <div class="id" id="Rail Fence">
