@@ -1,5 +1,5 @@
 <p style="margin-top: 30px; text-align: center">
-  <img src="/writeups/StarHackademINT2018/Bash1/img" width="80%" />
+  <img src="/writeups/StarHackademINT2018/Bash1/img" width="100%" />
 </p>
 
 <p>
@@ -41,7 +41,7 @@ Surprise ! Lorsque l'on tente de se connecter au serveur via ssh, on se prend un
 
 Ainsi, en faisant un<code>ssh bash5@IP_fournie_sur_le_site ls</code>, on voit qu'il exite un fichier flag.txt, que l'on peut ainsi<code>cat</code>de la même manière. 
 
-On obtient ainsi le flag : starhack{OGJNhnuDS4JG7hknweSYRhYbR}
+On obtient donc le flag : starhack{OGJNhnuDS4JG7hknweSYRhYbR}
 </p>
 <h4 style="margin-top: 30px">Bash #6</h4>
 <p>
@@ -50,7 +50,7 @@ Cette fois-là, on voit avec notre trusty<code>ls</code>deux fichiers : instruct
 
 <h4 style="margin-top: 30px">Bash #7</h4>
 <p>
-On découvre grâce à notre (once again) trust<code>ls</code>un fichier instructions.txt qui contient (once ag) des... INSTRUCTIONS (?!?) : "Connexion tcp sur l'ip de connexion / port 500 et/ou port 5000". Pour ce connecter en tcp, on utilise l'outil NetCat, grâce à la commande suivante :<code>nc IP.FOURNIE.SUR.LE.SITE 500</code>. Cela nous renvoie le flag : starhack{72BA46rGoflIUsL2q9hlnEmNL}.
+On découvre grâce à notre (once again) trust<code>ls</code>un fichier instructions.txt qui contient (once again) des... INSTRUCTIONS (?!?) : "Connexion tcp sur l'ip de connexion / port 500 et/ou port 5000". Pour ce connecter en tcp, on utilise l'outil NetCat, grâce à la commande suivante :<code>nc IP.FOURNIE.SUR.LE.SITE 500</code>. Cela nous renvoie le flag : starhack{72BA46rGoflIUsL2q9hlnEmNL}.
 PS: en essayant avec le port 5000, on trouve exactement le même flag. Le "et" des instructions était donc là pour nous induire en erreur (?!?!).
 </p>
 
