@@ -139,7 +139,7 @@
                 <li>
                   <a onclick="activate('Bash')">Bash</a>
                   <div class="id" id="Bash">
-        <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/Bash/Bash1.php') ?>
+        <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/Bash1/bash1.php') ?>
                   </div>
 		</li>
 		<li>
