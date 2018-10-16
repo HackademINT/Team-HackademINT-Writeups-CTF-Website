@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
 <html>
-  <?php include('head.php'); ?>
+  <?php include('./head.php'); ?>
   <body class="landing">
     <div id="page-wrapper">
 
       <!-- Header -->
-      <?php include('menu.php'); ?>
+      <?php include('./menu.php'); ?>
 
       <!-- Banner -->
       <section id="banner">

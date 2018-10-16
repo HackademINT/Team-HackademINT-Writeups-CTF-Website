@@ -17,15 +17,15 @@
                   <h2>Writeups</h2>
                 </header>
               </div>
-              <div class="2u">&nbsp;</div>        
+              <div class="2u">&nbsp;</div>
               <div class="8u 12u$(medium)">
                 <a href="https://ctftime.org/team/30462"><span class="image fit"><img src="images/ctfd.png" alt="" /></span></a>
               </div>
-              <div class="2u">&nbsp;</div>        
+              <div class="2u">&nbsp;</div>
             </div>
           </div>
         </div>
-      </div>			
+      </div>
 
       <!-- Text -->
 
@@ -44,7 +44,7 @@
                     <?php include('/writeups/2017-2018/IceCTF/icectf.php') ?>
                   </div>
                 </li>
-            </ul>	
+            </ul>
           </section>
         </div>
       </div>
@@ -111,7 +111,7 @@
                     <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/2017-2018/RCTF/rctf.php') ?>
                   </div>
                 </li>
-            </ul>	
+            </ul>
           </section>
         </div>
       </div>
@@ -127,10 +127,46 @@
                 <li>
                   <a onclick="activate('ZipBruteforce')">ZipBruteforce</a>
                   <div class="id" id="ZipBruteforce">
-		    <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/Zip-Bruteforce/zip-bruteforce.php') ?>
+        <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/Zip-Bruteforce/zip-bruteforce.php') ?>
+                  </div>
+    		</li>
+                <li>
+                  <a onclick="activate('Affine')">Affine</a>
+                  <div class="id" id="Affine">
+        <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/Affine/affine.php') ?>
                   </div>
 		</li>
-            </ul>	
+                <li>
+                  <a onclick="activate('Bash')">Bash</a>
+                  <div class="id" id="Bash">
+        <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/Bash1/bash1.php') ?>
+                  </div>
+		</li>
+		<li>
+                  <a onclick="activate('Rail Fence')">Rail Fence</a>
+                  <div class="id" id="Rail Fence">
+        <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/RailFence/railfence.php') ?>
+                  </div>
+                </li>
+                <li>
+                  <a onclick="activate('Localisation2')">Localisation 2</a>
+                  <div class="id" id="Localisation2">
+        <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/Localisation2/localisation2.php') ?>
+                  </div>
+                </li>
+                <li>
+                  <a onclick="activate('PHPFilters')">PHP Filters</a>
+                  <div class="id" id="PHPFilters">
+        <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/PHPFilters/php_filters.php') ?>
+                  </div>
+                </li>
+                <li>
+                  <a onclick="activate('XorDifficile')">Xor Difficile</a>
+                  <div class="id" id="XorDifficile">
+        <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/XorDifficile/xor_difficile.php') ?>
+                  </div>
+                </li>
+            </ul>
           </section>
         </div>
       </div>
@@ -147,7 +183,7 @@
 <!-- Footer -->
 <?php include('footer.php'); ?>
 <!-- Scripts -->
-<?php include ('script.php'); ?>
+  <?php include ('script.php'); ?>
 <script>
 function activate(elem) {
   var x = document.getElementById(elem);
