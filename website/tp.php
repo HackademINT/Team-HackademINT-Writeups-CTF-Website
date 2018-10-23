@@ -84,9 +84,11 @@
               <li>
                 <a href="TP/post-exploitation.pdf">From webshell to root</a><br />
               </li>
+              <!--
               <li>
                 <a href="TP/stapler.pdf">From nothing to root</a><br />
               </li>
+              -->
             </ul>
           </section>
         </div>
