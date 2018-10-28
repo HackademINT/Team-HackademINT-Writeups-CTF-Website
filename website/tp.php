@@ -35,6 +35,12 @@
             <h3>&nbsp;&nbsp;<u><b>2018-2019</b></u></h3>
             <ul style="margin-left: 3em; margin-right:3em">
               <li>
+                <a onclick="activate('TPPentestWeb1')">Pentest Web 1</a><br />
+                <div class="id" id="TPPentestWeb1">
+                  <?php include('TP/Pentest/Pentest_Web_1.php') ?>
+                </div>
+              </li>
+              <li>
                 <a href="./TP/Hygiene_Numerique/tp_hygiene_numerique.pdf">Hygiène Numérique</a><br />
               </li>
               <li>
