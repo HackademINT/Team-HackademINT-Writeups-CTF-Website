@@ -18,6 +18,7 @@
             <span style="display: block;">Equipe compétitive de <a href="#zero">Capture The Flag</a></span>
             <span style="display: block;"><a href="https://starhackademint.minet.net">Plateforme d'entrainement</a></span>
             <span style="display: block;">Rejoignez notre <a href="https://discord.gg/jTdggpU">Discord</a></span>
+            <input onclick="motto()" />
           </header>
           <span class="image"><img src="images/pic01.jpg" alt="" /></span>
         </div>
