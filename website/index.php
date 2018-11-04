@@ -18,7 +18,14 @@
             <span style="display: block;">Equipe compétitive de <a href="#zero">Capture The Flag</a></span>
             <span style="display: block;"><a href="https://starhackademint.minet.net">Plateforme d'entrainement</a></span>
             <span style="display: block;">Rejoignez notre <a href="https://discord.gg/jTdggpU">Discord</a></span>
-            <input onclick="motto()" />
+            <button style="width: 100%;
+                          height: 4em;
+                          background-color: Transparent;
+                          background-repeat:no-repeat;
+                          border: none;
+                          cursor:pointer;
+                          overflow: hidden;"      
+                   onclick="motto()"></button>
           </header>
           <span class="image"><img src="images/pic01.jpg" alt="" /></span>
         </div>
