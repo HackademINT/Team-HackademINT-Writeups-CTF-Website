@@ -26,7 +26,7 @@ vous venez de vous créer. Bon courage.
 \pagebreak
 
 # Le petit setup
-On commence par créer le dossier Deep avec les élément suivants. a.txt est un fichier vide et Buff, Fini et Pfini sont également vides. Rockyou.txt
+On commence par créer le dossier Deep avec les élément suivants. a.txt est un fichier vide et Buff, Fini et Pfini sont également vides. rockyou.txt
 contient la wordlist éponyme.
 
 ![Comme ça](Zipperonni1.png)
@@ -34,7 +34,7 @@ contient la wordlist éponyme.
 \pagebreak
 
 # Et c'est parti pour automatiser
-On télécharge ensuite le zip de départ Pfini et on peut commencer le bruteforcing de masse en exécutant zipperonni.bash qui contient le code suivant :
+On télécharge ensuite le zip de départ dans Pfini et on peut commencer le bruteforcing de masse en exécutant zipperonni.bash qui contient le code suivant :
 
 ```bash
 for i in `seq 0 101`
@@ -48,7 +48,7 @@ do
 done;
 ```
 
-Ce code commence par créer la wordlist du zip qui est dans Pfini, qu’il stock dans a.txt.
+Ce code commence par créer la wordlist du zip qui est dans Pfini, qu’il stocke dans a.txt.
 Il supprime ensuite les parenthèses du nom du zip s’il y’en a pour ne pas perturber la commande suivante.
 Grâce a fcrackzip il trouve le bon password (contenu dans a.txt) en les essayant 1 par 1, puis il extrait le zip suivant dans Bufff.
 Il met ensuite le zip qu’il vient de traiter dans Fini et celui qu’il vient d’extraire dans Pfini.
