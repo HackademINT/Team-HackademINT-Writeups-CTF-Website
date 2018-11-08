@@ -14,7 +14,7 @@ colorlinks: true
 ---
 
 # Le sujet
-On nous donne une commande : `ssh -i rsa_priv_key rsaextreme@157.159.40.163`{.bash}, une clef publique a télécharger et un indice : "Tu connais les fractions continues ?"
+On nous donne une commande : `ssh -i rsa_priv_key rsaextreme@157.159.40.163`, une clef publique a télécharger et un indice : "Tu connais les fractions continues ?"
 
 # Analyse du problème
 On voit donc qu’on doit générer une clé privé à l’aide d’une clé publique. On a donc un N et un e et on cherche a obtenir un d.
