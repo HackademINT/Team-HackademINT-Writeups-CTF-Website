@@ -185,7 +185,7 @@
       <div class="wrapper style1">
         <div class="container">
           <section>
-            <a href="<?php echo $_SERVER["DOCUMENT_ROOT"] ?>/writeups/KerberINT2017/Writeups KERBERINT 2017.pdf">
+            <a href="/writeups/KerberINT2017/Writeups KERBERINT 2017.pdf">
               <h3>&nbsp;&nbsp;<u><b>KerberINT2017</b></u></h3>
             </a>
           </section>
