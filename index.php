@@ -1,1 +1,3 @@
-<?php header('Location: ./website') ?>
+<script>                                                                        
+document.location = './website/'                                                
+</script>  
