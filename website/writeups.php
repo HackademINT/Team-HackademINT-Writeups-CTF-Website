@@ -39,9 +39,9 @@
             </a>
             <ul style="margin-left: 3em; margin-right:3em; text-align: justify">
                 <li>
-                  <a onclick="activate('IceCTF')">IceCTF</a>
-                  <div class="id" id="IceCTF">
-                    <?php include('/writeups/2017-2018/IceCTF/icectf.php') ?>
+                  <a onclick="activate('PicoCTF')">PicoCTF</a>
+                  <div class="id" id="PicoCTF">
+                    <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/2018-2019/picoCTF/PicoCTF.php') ?>
                   </div>
                 </li>
             </ul>
@@ -51,7 +51,7 @@
       <div class="wrapper style1">
         <div class="container">
           <section>
-            <a href="<?php echo $_SERVER["DOCUMENT_ROOT"] ?>/writeups/2017-2018">
+            <a href="/writeups/2017-2018">
               <h3>&nbsp;&nbsp;<u><b>2017-2018</b></u></h3>
             </a>
             <ul style="margin-left: 3em; margin-right:3em; text-align: justify">
@@ -118,7 +118,7 @@
       <div class="wrapper style1">
         <div class="container">
           <section>
-            <a href="<?php echo $_SERVER["DOCUMENT_ROOT"] ?>/writeups/StarHackademINT2018/">
+            <a href="/writeups/StarHackademINT2018/">
               <h3>&nbsp;&nbsp;<u><b>StarHackademINT2018</b></u></h3>
             </a>
             <ul style="margin-left: 3em; margin-right:3em; text-align: justify">
