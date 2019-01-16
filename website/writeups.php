@@ -166,6 +166,18 @@
         <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/XorDifficile/xor_difficile.php') ?>
                   </div>
                 </li>
+                <li>
+                  <a onclick="activate('RSA Extreme')">RSA Extrême</a>
+                  <div class="id" id="RSA Extreme">
+        <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/RSA_Extreme/RSA_Extreme.php') ?>
+                  </div>
+                </li>
+                <li>
+                  <a onclick="activate('Zipperonni')">Zipperonni</a>
+                  <div class="id" id="Zipperonni">
+        <?php include($_SERVER["DOCUMENT_ROOT"].'/writeups/StarHackademINT2018/Zipperonni/Zipperonni.php') ?>
+                  </div>
+                </li>
             </ul>
           </section>
         </div>
